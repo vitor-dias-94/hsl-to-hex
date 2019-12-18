@@ -1,6 +1,6 @@
 {
   "name": "@vitor-dias-94/hsl-to-hex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "prepublish": "npm test",
