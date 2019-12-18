@@ -1,9 +1,10 @@
 {
-  "name": "hsl-to-hex",
-  "version": "2.1.1",
+  "name": "@vitor-dias-94/hsl-to-hex",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && tap --cov test",
+    "lint": "standard --fix"
   },
   "author": "Vítor Dias",
   "license": "ISC",
@@ -15,5 +16,15 @@
     "url": "https://github.com/vitor-dias-94/hsl-to-hex/issues"
   },
   "homepage": "https://github.com/vitor-dias-94/hsl-to-hex#readme",
-  "description": ""
+  "description": "Convert HSL colors to RGB colors in hex format.",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "tap": "^14.10.4"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
